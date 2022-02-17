@@ -2,11 +2,13 @@
     font-size: 100px;
     text-align: center;
     font-family: 'Permanent Marker', cursive;
+    margin: 50px;
 }
 
 .subtitle{
     text-align: center;
     font-size: 50px;
+    margin: 50px;
 }
 
 #greeting{
@@ -66,8 +68,6 @@
     display: none;
 }
 
-<<<<<<< HEAD
-
 .timeimg{
     width: 80%;
 }
@@ -97,7 +97,7 @@
 .visit-intro{
     width: 45%;
 }
-=======
+
 .day1btn{
     font-family: 'Great Vibes', cursive;
 }
@@ -108,4 +108,7 @@
     font-family: 'Great Vibes', cursive;
 }
 
->>>>>>> 322bf9ed1804dd2e392499202e4e4e95f09451a9
+footer{
+    text-align: center;
+    background-color: aquamarine;
+}
