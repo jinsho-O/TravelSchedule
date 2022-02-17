@@ -1,0 +1,30 @@
+.maintitle{
+    font-size: 100px;
+    text-align: center;
+}
+
+#greeting{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.greet-img{
+    width: 45%;
+}
+
+.greet-img img{
+    max-width: 90%;
+}
+
+.greet-text{
+    width: 45%;
+}
+
+.greet-text p{
+    font-size: 20px;
+}
+
+.hide{
+    display: none;
+}
