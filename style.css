@@ -73,7 +73,10 @@ main{
     display: none;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> b2bd5ee40735f53ee55aff5e7b4019e0050f3dff
 .timeimg{
     width: 80%;
 }
@@ -114,14 +117,18 @@ main{
     font-family: 'Great Vibes', cursive;
 }
 
+<<<<<<< HEAD
 .maps{
     display: flex;
     justify-content: center;
 }
+=======
+>>>>>>> b2bd5ee40735f53ee55aff5e7b4019e0050f3dff
 
 footer{
     text-align: center;
     background-color: aquamarine;
+<<<<<<< HEAD
 }
 
 /* ここから初めのアニメーション */
@@ -147,3 +154,6 @@ footer{
 
 /* ここまでアニメーション */
 
+=======
+}
+>>>>>>> b2bd5ee40735f53ee55aff5e7b4019e0050f3dff
