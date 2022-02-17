@@ -3,6 +3,11 @@
     text-align: center;
 }
 
+.subtitle{
+    text-align: center;
+    font-size: 50px;
+}
+
 #greeting{
     display: flex;
     justify-content: space-around;
@@ -25,6 +30,68 @@
     font-size: 20px;
 }
 
+.day{
+    text-align: center;
+}
+
+.day1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.day2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.day3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-box{
+    text-align: center;
+}
+
+.btn-box button{
+    margin: 0px 30px;
+}
+
 .hide{
     display: none;
+}
+
+
+.timeimg{
+    width: 80%;
+}
+
+.timeimg img{
+    width: 100%;
+}
+
+#introduction{
+    width: 100%;
+}
+
+.intro-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.visit-img{
+    width: 45%;
+}
+
+.visit-img img{
+    max-width: 90%;
+}
+
+.visit-intro{
+    width: 45%;
 }
