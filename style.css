@@ -1,6 +1,7 @@
 .maintitle{
     font-size: 100px;
     text-align: center;
+    font-family: 'Permanent Marker', cursive;
 }
 
 #greeting{
@@ -28,3 +29,14 @@
 .hide{
     display: none;
 }
+
+.day1btn{
+    font-family: 'Great Vibes', cursive;
+}
+.day2btn{
+    font-family: 'Great Vibes', cursive;
+}
+.day3btn{
+    font-family: 'Great Vibes', cursive;
+}
+
