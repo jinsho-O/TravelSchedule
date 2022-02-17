@@ -31,7 +31,7 @@ var lastPage =parseInt($(".intro-container").length-1);
      $(".intro-container").css("display","none");
 
 //（４）初期ページを表示
-          $(".intro-container").eq(page).css("display","block");
+          $(".intro-container").eq(page).css("display","flex");
 
 //（５）ページ切換用、自作関数作成
 function changePage(){
@@ -61,5 +61,31 @@ clearInterval(Timer);
 startTimer();
 
 /*オプションを足す場合はここへ記載*/
+//（９）「次へ」をクリック
+$("#nav-r").click(function() {
+    //タイマー停止＆スタート（クリックした時点から～秒とする為）
+    stopTimer();
+    startTimer();
+         if(page === lastPage){
+                        page = 0;
+                        changePage();
+              }else{
+                        page ++;
+                        changePage();
+         };
+    });
 
+//「戻る」をクリック
+    $("#nav-l").click(function() {
+         //タイマー停止＆スタート（クリックした時点から～秒とする為）
+         stopTimer();
+         startTimer();
+         if(page === 0){
+                        page = lastPage;
+                        changePage();
+              }else{
+                        page --;
+                        changePage();
+         };
+    });
 });
