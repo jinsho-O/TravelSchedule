@@ -73,7 +73,10 @@ main{
     display: none;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> b553e784ef51b0d834fb47a5e56f09c0fcfffa04
 .timeimg{
     width: 80%;
 }
@@ -115,15 +118,28 @@ main{
     font-family: 'Great Vibes', cursive;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> b553e784ef51b0d834fb47a5e56f09c0fcfffa04
 .maps{
     display: flex;
     justify-content: center;
 }
+<<<<<<< HEAD
 
 
 footer{
     text-align: center;
     background-color: aquamarine;}
+=======
+
+footer{
+    text-align: center;
+    background-color: aquamarine;
+
+}
+>>>>>>> b553e784ef51b0d834fb47a5e56f09c0fcfffa04
 
  .start{
 	background: #FFF;
@@ -150,6 +166,7 @@ footer{
     position: relative;
 }
 
+<<<<<<< HEAD
 .intro-container{
     position: absolute;
     left: 0;
@@ -157,3 +174,5 @@ footer{
 }
 
 
+=======
+>>>>>>> b553e784ef51b0d834fb47a5e56f09c0fcfffa04
