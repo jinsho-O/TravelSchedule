@@ -2,6 +2,7 @@
     font-size: 100px;
     text-align: center;
     font-family: 'Permanent Marker', cursive;
+    margin: 50px;
 }
 
 main{
@@ -12,6 +13,7 @@ main{
 .subtitle{
     text-align: center;
     font-size: 50px;
+    margin: 50px;
 }
 
 #greeting{
@@ -71,8 +73,11 @@ main{
     display: none;
 }
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> ead0caaad4b83d200fa778d585f08198051e3be5
 .timeimg{
     width: 80%;
 }
@@ -113,3 +118,10 @@ main{
     font-family: 'Great Vibes', cursive;
 }
 
+<<<<<<< HEAD
+=======
+footer{
+    text-align: center;
+    background-color: aquamarine;
+}
+>>>>>>> ead0caaad4b83d200fa778d585f08198051e3be5
