@@ -1,6 +1,7 @@
 .maintitle{
     font-size: 100px;
     text-align: center;
+    font-family: 'Permanent Marker', cursive;
 }
 
 .subtitle{
@@ -65,6 +66,7 @@
     display: none;
 }
 
+<<<<<<< HEAD
 
 .timeimg{
     width: 80%;
@@ -95,3 +97,15 @@
 .visit-intro{
     width: 45%;
 }
+=======
+.day1btn{
+    font-family: 'Great Vibes', cursive;
+}
+.day2btn{
+    font-family: 'Great Vibes', cursive;
+}
+.day3btn{
+    font-family: 'Great Vibes', cursive;
+}
+
+>>>>>>> 322bf9ed1804dd2e392499202e4e4e95f09451a9
