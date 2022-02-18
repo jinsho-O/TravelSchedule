@@ -202,6 +202,7 @@ main{
     display: flex;
     justify-content: center;
 }
+
 footer{
     text-align: center;
     background-color: aquamarine;
@@ -234,10 +235,13 @@ footer{
 
 
 .intro-container-box{
+    width: 100%;
     position: absolute;
     left: 0;
     top: 0;
+    background-color: rgba(100, 100, 100, 0.5)
 }
+
 .operation-box{
     position: absolute;
     top: 400px;
