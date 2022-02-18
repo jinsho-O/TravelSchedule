@@ -12,6 +12,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="./script.js"></script>
@@ -19,7 +22,19 @@
 </head>
 
 <body>
-    <header></header>
+    <header>
+        <!-- ハンバーガー -->
+        <input type="checkbox" id="hamburger">
+        <label for="hamburger" class="hamburger">
+            <span></span>
+        </label>
+        <div class="header-right">
+            <ul>
+                <li>xxx</li>
+                <li>xxx</li>
+            </ul>
+        </div>
+    </header>
     <main>
         <h1 class="maintitle">TABIORI</h1>
         <section id="greeting">
@@ -29,13 +44,13 @@
             <div class="greet-text">
                 <h2>四国カルストとは</h2>
                 <p>愛媛県と高知県にまたがる尾根沿いに広がる「四国カルスト」。
-                東西約25kmにおよぶカルスト台地で、日本三大カルストのひとつ。3つの中では最も標高の高い場所にあり、
-                「日本のスイス」とも称され、訪れる人々を癒してくれます。晴れた日にはどこまでも続く四国連山が一望でき、
-                雲の上の大パノラマが広がります。
-                白い石灰岩がヒツジの群れのように見えるカレンフェルトやすり鉢型の窪地ドリーネなど、カルスト特有の景色が望める場所です。
-                標高1000ｍ～1500ｍに広がるパノラマの風景や珍しい高原植物は必見！広大な大地、
-                どこまでも続く青空、放牧された牛の群れなど、牧歌的な風景が広がっています。</p>
-                
+                    東西約25kmにおよぶカルスト台地で、日本三大カルストのひとつ。3つの中では最も標高の高い場所にあり、
+                    「日本のスイス」とも称され、訪れる人々を癒してくれます。晴れた日にはどこまでも続く四国連山が一望でき、
+                    雲の上の大パノラマが広がります。
+                    白い石灰岩がヒツジの群れのように見えるカレンフェルトやすり鉢型の窪地ドリーネなど、カルスト特有の景色が望める場所です。
+                    標高1000ｍ～1500ｍに広がるパノラマの風景や珍しい高原植物は必見！広大な大地、
+                    どこまでも続く青空、放牧された牛の群れなど、牧歌的な風景が広がっています。</p>
+
 
 
             </div>
@@ -88,7 +103,7 @@
                     <div class="intro-container">
                         <div class="visit-intro">
                             <h2>道後温泉</h2>
-                            <p>愛媛県松山市に湧出する温泉で日本三古湯の一つである。夏目漱石の小説「坊っちゃん」にも描かれて、愛媛県の代表的な観光地です。</p>
+                            <p>愛媛県松山市に湧出する温泉で日本三古湯の一つである。夏目漱石の小説「坊っちゃん」にも描かれ、愛媛県の代表的な観光地です。</p>
 
                         </div>
                         <div class="visit-img">
@@ -112,7 +127,7 @@
                     <div class="intro-container">
                         <div class="visit-intro">
                             <h2>徳島の吉野川　大歩危小歩危でラフティング</h2>
-                            <p>四国山地を横切る吉野川の激流で日頃の嫌なことを一緒に流しましょう！</p>
+                            <p>四国山地を横切る吉野川の激流で日頃の嫌なことを一緒に流してみませんか？</p>
 
                         </div>
                         <div class="visit-img">
@@ -136,8 +151,8 @@
                     <div class="intro-container">
                         <div class="visit-intro">
                             <h2>もみの木チーズケーキ</h2>
-                            <p>数量限定の濃厚チーズケーキ、これを食べて帰りましょう</p>
- 
+                            <p>数量限定の濃厚チーズケーキ、売り切れ必至</p>
+
                         </div>
                         <div class="visit-img">
                             <img src="./img/もみの木チーズケーキ/cheesecake.jpeg" alt="">
@@ -151,8 +166,8 @@
                         </div>
                         <div class="visit-intro">
                             <h2>もみの木の外観</h2>
-                            <p>お近くに行った際にはぜひ！</p>
- 
+                            <p>四国カルストの西部に位置する大野ヶ原にあります。</p>
+
                         </div>
                     </div>
                 </div>
@@ -160,8 +175,8 @@
                     <div class="intro-container">
                         <div class="visit-intro">
                             <h2>もみの木店内</h2>
-                            <p>ほっこりします</p>
- 
+                            <p>チーズケーキはイートイン限定で待ち時間に諦めてアイスクリームだけ食べて帰る方も多いそう…</p>
+
                         </div>
                         <div class="visit-img">
                             <img src="./img/もみの木チーズケーキ/moninoki2.jpeg" alt="">
@@ -175,9 +190,15 @@
                         </div>
                         <div class="visit-intro">
                             <h2>subtitle</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna</p>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna</p>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna</p>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue
+                                massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit
+                                amet commodo magna eros quis urna</p>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue
+                                massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit
+                                amet commodo magna eros quis urna</p>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue
+                                massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit
+                                amet commodo magna eros quis urna</p>
                         </div>
                     </div>
                 </div>
@@ -188,25 +209,33 @@
                         </div>
                         <div class="visit-intro">
                             <h2>subtitle</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna</p>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna</p>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna</p>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue
+                                massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit
+                                amet commodo magna eros quis urna</p>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue
+                                massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit
+                                amet commodo magna eros quis urna</p>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue
+                                massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit
+                                amet commodo magna eros quis urna</p>
                         </div>
                     </div>
                 </div>
                 <div class="operation-box">
                     <div class="operation">
-                         <button id="nav-r">次へ</button>
-                         <button id="nav-l">戻る</button>
-                    </div> 
+                        <button id="nav-r">次へ</button>
+                        <button id="nav-l">戻る</button>
+                    </div>
                 </div>
             </div>
         </section>
         <section class="fin">
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna</p>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere,
+                magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna</p>
         </section>
         <div class="maps">
-            <iframe src="https://www.google.com/maps/d/embed?mid=14N3xYdsCt4h-Y-i7HHgAjVHPIVw3rnJz&ehbc=2E312F" width="640" height="480"></iframe>
+            <iframe src="https://www.google.com/maps/d/embed?mid=14N3xYdsCt4h-Y-i7HHgAjVHPIVw3rnJz&ehbc=2E312F"
+                width="640" height="480"></iframe>
         </div>
     </main>
     <footer><small>&copy;</small>2022 Jinsho & Kae</footer>
