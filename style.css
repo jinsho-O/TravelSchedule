@@ -122,11 +122,13 @@ main{
     display: flex;
     justify-content: center;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> a259634bda03fb87fcef59c764b6ee5d9922f74d
 footer{
     text-align: center;
     background-color: aquamarine;
-
 }
 
  .start{
@@ -156,13 +158,19 @@ footer{
 
 
 .intro-container-box{
+<<<<<<< HEAD
     width: 100%;
+=======
+>>>>>>> a259634bda03fb87fcef59c764b6ee5d9922f74d
     position: absolute;
     left: 0;
     top: 0;
     background-color: rgba(100, 100, 100, 0.5)
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> a259634bda03fb87fcef59c764b6ee5d9922f74d
 .operation-box{
     position: absolute;
     top: 400px;
