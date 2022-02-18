@@ -122,26 +122,12 @@ main{
     display: flex;
     justify-content: center;
 }
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 08a697dec6d430c56b3e1bb49a1ce128d55a6897
-
-footer{
-    text-align: center;
-    background-color: aquamarine;}
-<<<<<<< HEAD
-=======
-
 
 footer{
     text-align: center;
     background-color: aquamarine;
 
 }
-
->>>>>>> 08a697dec6d430c56b3e1bb49a1ce128d55a6897
 
  .start{
 	background: #FFF;
@@ -168,19 +154,15 @@ footer{
     position: relative;
 }
 
-<<<<<<< HEAD
 
-.intro-container{
-=======
 .intro-container-box{
->>>>>>> 08a697dec6d430c56b3e1bb49a1ce128d55a6897
+    width: 100%;
     position: absolute;
     left: 0;
     top: 0;
+    background-color: rgba(100, 100, 100, 0.5)
 }
 
-<<<<<<< HEAD
-=======
 .operation-box{
     position: absolute;
     top: 400px;
@@ -190,4 +172,3 @@ footer{
 .operation{
     display: flex;
 }
->>>>>>> 08a697dec6d430c56b3e1bb49a1ce128d55a6897
