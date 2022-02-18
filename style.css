@@ -9,6 +9,10 @@ main{
     background-color: rgb(248, 230, 68);
 }
 
+.greet-text p{
+    line-height: 1.5;
+}
+
 /* ハンバーガー */
 
 #hamburger{
