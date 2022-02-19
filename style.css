@@ -9,11 +9,95 @@ main{
     background-color: rgb(248, 230, 68);
 }
 
+.greet-text p{
+    line-height: 1.5;
+}
+
+/* ハンバーガー */
+
+#hamburger{
+    display: none;
+}
+
+.hamburger{
+    width: 30px;
+    height: 30px;
+    display: block;
+}
+
+.hamburger span,
+.hamburger span::before,
+.hamburger span::after{
+    width: 100%;
+    height: 5px;
+    display: block;
+    background-color: grey;
+    border-radius: 2px;
+    transition: all 0.5s ease;
+    
+}
+
+.hamburger span{
+    position: relative;
+    top: calc(50% - 2px);
+}
+
+.hamburger span::before,
+.hamburger span::after{
+    content: '';
+    position: absolute;
+}
+
+.hamburger span::before{
+    top: -9px;
+}
+
+.hamburger span::after{
+    top: 9px;
+}
+
+.header-right{
+    position: fixed;
+    top: 66px;
+    right: -200px;
+    transition: all .5s ease;
+    background-color: rgba(81, 81, 100,0.6); 
+    height: 780px;
+    width: 127px;
+}
+
+.header-right ul{
+ display: block;
+}
+
+#hamburger:checked ~ .header-right{
+    right: 0;
+}
+
+#hamburger span::after{
+    top: 9px;
+}
+
+#hamburger:checked + .hamburger span{
+    background-color: transparent;
+}
+
+#hamburger:checked + .hamburger span::before{
+    transform: rotate(45deg) translate(5px,5px);
+}
+
+#hamburger:checked + .hamburger span::after{
+    transform: rotate(-45deg) translate(7px,-8px);
+}
+
+/* ハンバーガー終わり */
+
 
 .subtitle{
     text-align: center;
     font-size: 50px;
     margin: 50px;
+    font-family: 'Bungee', cursive;
 }
 
 #greeting{
@@ -87,7 +171,12 @@ main{
 
 #introduction{
     width: 100%;
-    height: 600px;
+    height: 700px;
+    
+}
+
+.visit-intro h2{
+    font-size: 20px;
 }
 
 .intro-container{
@@ -159,7 +248,7 @@ footer{
     position: absolute;
     left: 0;
     top: 0;
-    background-color: rgba(100, 100, 100, 0.5)
+    background-color: rgba(100, 100, 100, 0.3)
 }
 
 .operation-box{
@@ -172,4 +261,10 @@ footer{
     display: flex;
 }
 
+<<<<<<< HEAD
 /* アニメ */
+=======
+.fin p{
+    text-align: center;
+}
+>>>>>>> c2177cd072c02e519eb9e54393dddd8257122485
