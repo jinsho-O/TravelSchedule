@@ -284,10 +284,16 @@ footer{
     display: flex;
 }
 
+<<<<<<< HEAD
 
 /* アニメ */
 .fin p{
     text-align: center;
     margin-bottom: 100px;
     font-size: 50px;
+=======
+/* アニメ */
+.fin p{
+    text-align: center;
+>>>>>>> feb1926c0491b59296ea36d50ea8323820d5a473
 }
