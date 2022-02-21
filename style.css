@@ -3,6 +3,7 @@ header{
     justify-content: flex-end;
     background-color: rgb(248, 230, 68);
     margin: 0;
+    padding: 15px;
 }
 
 .header-right{
@@ -13,6 +14,15 @@ header{
 
 .header-right ul{
     margin-top: 50px;
+}
+
+.header-right ul li{
+    margin: 10px;
+}
+
+.header-right ul li a{
+    text-decoration: none;
+    color: white;
 }
 
 .maintitle{
@@ -291,7 +301,6 @@ footer{
 .slide-container{
     display: flex;
     width: 100%;
-    height: 600px;
     transition: all 1s ease;
   }
   
@@ -339,14 +348,29 @@ footer{
   
   .loading {
     background-color:rgb(248, 230, 68);
+    padding: 0;
+    margin: 0;
     display: fixed
 }
 
 .loading img {
-    display: block;
+    display: inline-block;
     min-height: 209px;
     min-width: 200px;
+    padding-left: 100%;
+    animation: scroll 20s linear infinite;
 }
+
+@keyframes scroll{
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+
+
 
 /* .mouse {
     width: 25px;
