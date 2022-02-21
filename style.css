@@ -1,12 +1,21 @@
+header{
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(248, 230, 68);
+    margin: 0;
+}
+
 .maintitle{
     font-size: 100px;
     text-align: center;
     font-family: 'Permanent Marker', cursive;
-    margin: 50px;
+    margin: 0px 50px 50px 50px;
 }
+
 
 main{
     background-color: rgb(248, 230, 68);
+    margin-top: 0;
 }
 
 .greet-text p{
@@ -34,7 +43,7 @@ main{
     background-color: grey;
     border-radius: 2px;
     transition: all 0.5s ease;
-    
+    z-index: 9999;
 }
 
 .hamburger span{
@@ -58,12 +67,13 @@ main{
 
 .header-right{
     position: fixed;
-    top: 66px;
+    top: 0px;
     right: -200px;
     transition: all .5s ease;
     background-color: rgba(81, 81, 100,0.6); 
-    height: 780px;
+    height: 100%;
     width: 127px;
+    z-index: 9000;
 }
 
 .header-right ul{
@@ -84,10 +94,12 @@ main{
 
 #hamburger:checked + .hamburger span::before{
     transform: rotate(45deg) translate(5px,5px);
+    background-color: white;
 }
 
 #hamburger:checked + .hamburger span::after{
     transform: rotate(-45deg) translate(7px,-8px);
+    background-color: white;
 }
 
 /* ハンバーガー終わり */
@@ -214,7 +226,8 @@ main{
 
 footer{
     text-align: center;
-    background-color: aquamarine;
+    background-color: orange;
+    padding: 10px;
 }
 
  .start{
@@ -261,10 +274,7 @@ footer{
     display: flex;
 }
 
-<<<<<<< HEAD
 /* アニメ */
-=======
 .fin p{
     text-align: center;
 }
->>>>>>> c2177cd072c02e519eb9e54393dddd8257122485

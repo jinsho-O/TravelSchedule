@@ -88,4 +88,9 @@ $("#nav-r").click(function() {
                         changePage();
          };
     });
+    $(function() {
+        $(".fade").letterfx({
+          "fx": "fade"
+        });
+      });
 });
