@@ -5,6 +5,16 @@ header{
     margin: 0;
 }
 
+.header-right{
+    text-decoration: none;
+    color: white;
+    position: fixed;
+}
+
+.header-right ul{
+    margin-top: 50px;
+}
+
 .maintitle{
     font-size: 100px;
     text-align: center;
@@ -274,15 +284,10 @@ footer{
     display: flex;
 }
 
-<<<<<<< HEAD
-/* アニメ */
-.fin p{
-    text-align: center;
-}
-=======
 
 /* アニメ */
 .fin p{
     text-align: center;
+    margin-bottom: 100px;
+    font-size: 50px;
 }
->>>>>>> 2a12c13e47035835f659b48a5d76f4b6f7bc6834
