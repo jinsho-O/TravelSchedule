@@ -385,27 +385,6 @@ footer{
 
 
 
-/* .mouse {
-    width: 25px;
-    height: 25px;
-    border-radius: 100%;
-    background-color: #fff782;
-    position: absolute;
-    animation: mouseAnimation .5s infinite ease-in-out alternate;
-    left: 0;
-    top: 0
-}
 
-@keyframes mouseAnimation {
-    
-    from {
-        width: 25px;
-        height: 25px
-    }
-    
-    to {
-        width: 15px;
-        height: 15px
-    }
-    
-} */
+
+
