@@ -178,6 +178,19 @@ main{
     align-items: center;
 }
 
+.day1btn{
+    font-size: 25px;
+    padding: 5px;
+}
+.day2btn{
+    font-size: 25px;
+    padding: 5px;
+}
+.day3btn{
+    font-size: 25px;
+    padding: 5px;
+}
+
 .btn-box{
     text-align: center;
 }

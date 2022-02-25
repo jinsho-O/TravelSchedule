@@ -21,7 +21,7 @@ $(function () {
     setTimeout(function () {
         $('.start').fadeOut(500);
     }, 2500);
-
+// ここからスライド
     var page = 0;
 
     //（２）イメージの数を最後のページ数として変数化
@@ -88,11 +88,13 @@ $(function () {
             changePage();
         };
     });
+// ここまで
     $(function() {
         $(".fade").letterfx({
           "fx": "fade"
         });
       });
+
       let index = 0;
   let slideMax = $('.slide').length
   $('.right-arrow').on('click',function () {
